@@ -1,0 +1,21 @@
+.members img{
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.members {
+  float: left;
+}
+
+img {
+  clear:both
+
+}
+
+.tour {
+  width:20%;
+  float:right;
+  background-color: grey;
+
+}
