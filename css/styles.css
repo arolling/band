@@ -2,20 +2,25 @@
   float: left;
   width: 200px;
   height: auto;
+  padding: 15px;
 }
 
 .members {
   float: left;
+  padding: 15px;
 }
-
+/*
 img {
   clear:both
 
 }
-
+*/
 .tour {
   width:20%;
   float:right;
   background-color: grey;
+  padding: 10px;
+  border: 3px solid red;
+
 
 }
