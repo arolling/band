@@ -1,3 +1,7 @@
+body {
+  color:purple;
+}
+
 .members img{
   float: left;
   width: 200px;
@@ -9,12 +13,8 @@
   float: left;
   padding: 15px;
 }
-/*
-img {
-  clear:both
 
-}
-*/
+
 .tour {
   width:20%;
   float:right;
@@ -23,4 +23,33 @@ img {
   border: 3px solid red;
 
 
+}
+
+/*MEDIA QUERIES*/
+
+@media print {
+
+  img {
+    display: none;
+  }
+  * {
+    color:black;
+    font-size: 17pt;
+
+  }
+  .tour {
+    border: 2px solid black;
+    float: none;
+    width: 50%;
+    text-align: center;
+  }
+  .members {
+    float:none;
+    padding: 0px;
+    text-align: justify;
+  }
+  h3{
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
 }
